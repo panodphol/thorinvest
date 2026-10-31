@@ -1,0 +1,10 @@
+{
+  "name": "thorinvest",
+  "version": "4.0.0",
+  "description": "ThorInvest v4 \u2014 one CIO agent loop for KAsset Multi-Asset. 14 folded skills, deterministic calc/gate tools, 3 context-split subagents. Replaces thorinvest-core, thorinvest-extended, the standalone thorinvest orchestrator and the 12 domain packages.",
+  "author": {
+    "name": "Tor Tantawichian"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

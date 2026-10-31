@@ -1,0 +1,36 @@
+/* KAsset visual system — canonical tokens. Mode = attribute on <html>: data-kmode="teal" (default) | "miniart" */
+:root, [data-kmode="teal"] {
+  /* Corporate Teal — KAsset CI 2026 */
+  --k-bg:            #FFFFFF;
+  --k-surface:       #C5ECE6;  /* LIGHT_BACKGROUND, light fills */
+  --k-ink:           #013332;  /* PRIMARY_DARK, titles + body */
+  --k-ink-2:         #004C5E;  /* SECONDARY_TEAL */
+  --k-accent:        #44C2AE;  /* ACCENT_TEAL, the one highlight */
+  --k-data-1:        #44C2AE;
+  --k-data-2:        #97C6EB;  /* DATA_BLUE */
+  --k-data-muted:    #ADB9CA;  /* NEUTRAL_BLUEGRAY */
+  --k-restricted:    #00FFB9;  /* NEON_GREEN, restricted use */
+  --k-rag-green:     #44C2AE;
+  --k-rag-amber:     #FFFF00;  /* YELLOW, sanctioned for RAG only */
+  --k-rag-red:       #B23A48;  /* only permitted warm tone, RAG status only */
+  --k-font:          Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+[data-kmode="miniart"] {
+  /* Mini-Art Dark-Gold — executive visual cards */
+  --k-bg:            #0A0A0A;
+  --k-surface:       #0D1F16;
+  --k-ink:           #F5F5F0;
+  --k-ink-2:         #B8B8B0;
+  --k-ink-3:         #5A5A54;
+  --k-accent:        #C9A84C;  /* GOLD_PRIMARY, titles */
+  --k-hero:          #E8C96A;  /* GOLD_BRIGHT, hero numbers */
+  --k-data-1:        #E8C96A;
+  --k-data-2:        #2D5A3D;
+  --k-data-muted:    #1A3A2A;
+  --k-gold-dim:      #8B6914;
+  --k-border:        #C9A84C22;
+  --k-rag-green:     #2D5A3D;
+  --k-rag-amber:     #C9A84C;
+  --k-rag-red:       #B23A48;
+  --k-font:          Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
